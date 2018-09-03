@@ -23,12 +23,14 @@ Passo a passo da instalação
 5. bundle install - instalar as dependências do Gemfile
 
 ####################### NAVEGAÇÃO DO CMD #####################################
+
 cd <nomedapasta> - para entrar na pasta
 cd .. - para sair da pasta atual e voltar uma pasta na raiz
 pwd - para saber qual a sua localização
 ll - para verificar arquivos/pastas
 
 ####################### BAIXAR O PROJETO NO GITHUB ############################
+
 Se não tiver o projeto na máquina, navegue até a pasta que deseja criar:
 git clone https://github.com/nathaliaifurita/dojo_frontend.git
 
@@ -36,6 +38,7 @@ Se já tiver o projeto na máquina, navegue até a pasta do projeto:
 git pull origin master
 
 ####################### CRIAR UMA NOVA FEATURE ################################
+
 Passo a passo para fazer uma nova feature NO projeto
 1. Criar um novo arquivo .feature dentro da pasta featuresaver
 2. Escrever o bdd em linguagem gherkin (sem esquecer o #language: pt no inicio da pagina)
@@ -44,10 +47,12 @@ Passo a passo para fazer uma nova feature NO projeto
 5. Copiar o código gerado e colar no novoarquivo_steps.rb na step_definitions
 
 ####################### CRIAR UM NOVO PROJETO ################################
+
 Navegar até a pasta do projeto e executar o comando:
 cucumber --init (este comando irá criar a árvore de pastas que uma automação cucumber deve conter)
 
 ####################### INCLUIR PROJETO NOVO NO GIT ############################
+
 Passo a passo
 1. Criar usuário e senha no github/gitlab
 2. Instalar o git na máquina
@@ -63,6 +68,7 @@ Adicionar alterações:
 4. git push origin nomedabranch
 
 ####################### EXECUTAR O PROJETO ####################################
+
 Na pasta do seu projeto executar:
 cucumber
 cucumber features/nomedafeature.feature (para executar apenas uma feature)
