@@ -15,4 +15,4 @@ Cenario: Reservar passagem de avião
     | returning_2    | 25                  |
     | airline        | Blue Skies Airlines |
     E escolho o voo
-    Entao sou direcionado para a tela de finalização de compra "Frankfurt to London" e "London to Frankfurt"
+    Entao sou direcionado para a tela de finalização de compra contendo os valores "Frankfurt to London" e "London to Frankfurt"
