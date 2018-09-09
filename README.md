@@ -2,6 +2,14 @@
 
 Repositório utilizado no Dojo de frontend do QA Sampa Meeting dia 30/08/2018
 
+##  Ministtradores
+ - [Rafael Amaral](https://github.com/amaralrfl)
+ - [Nathalia Freire](https://github.com/nathaliaifurita)
+
+## CONTEÚDO
+ - [Slides da apresentação](https://docs.google.com/presentation/d/1AulSlXKU8aCBYXyeDpok3fkB1RbafXngq8kK18ycFC0/edit#slide=id.p1)
+ - [Fotos do Workshop](https://photos.google.com/u/1/share/AF1QipMyP5UuimesQ2ImKPVIMIDAIlACjE6MUOK4UzhpYmXpxIbXz1UyJsf4AqSrv3f4gw?key=SFphUms0MG5ndTl5eEkzV3NlcmZNWWd0RW1SVHB3)
+
 ### INSTALAÇÃO
 
 Pré-requisitos:
