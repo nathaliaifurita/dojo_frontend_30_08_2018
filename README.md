@@ -2,7 +2,7 @@
 
 Repositório utilizado no Dojo de frontend do QA Sampa Meeting dia 30/08/2018
 
-##  Ministtradores
+##  Ministradores
  - [Rafael Amaral](https://github.com/amaralrfl)
  - [Nathalia Freire](https://github.com/nathaliaifurita)
 
