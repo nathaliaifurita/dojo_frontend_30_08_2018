@@ -7,7 +7,7 @@ Repositório utilizado no Dojo de frontend do QA Sampa Meeting dia 30/08/2018
  - [Nathalia Freire](https://github.com/nathaliaifurita)
 
 ## CONTEÚDO
- - [Slides da apresentação](https://docs.google.com/presentation/d/1AulSlXKU8aCBYXyeDpok3fkB1RbafXngq8kK18ycFC0/edit#slide=id.p1)
+ - [Slides da apresentação](https://docs.google.com/presentation/d/1H7JcMl8brY0FY7BE6W_N3ox8BgLkQtsNd_YDwbI0vO0/edit#slide=id.g3eefde715a_0_0)
  - [Fotos do Workshop](https://photos.google.com/u/1/share/AF1QipMyP5UuimesQ2ImKPVIMIDAIlACjE6MUOK4UzhpYmXpxIbXz1UyJsf4AqSrv3f4gw?key=SFphUms0MG5ndTl5eEkzV3NlcmZNWWd0RW1SVHB3)
 
 ### INSTALAÇÃO
@@ -19,9 +19,9 @@ Pré-requisitos:
 
 Gems usadas no projeto:
 - cucumber
-- capybara - versão '2.18.0' #o site_prism está com um bug na versao 2.13 e só essa funciona
+- capybara
 - rspec
-- site_prism versão '2.12'
+- site_prism
 - chromedriver
 
 Passo a passo da instalação
@@ -45,19 +45,24 @@ Se não tiver o projeto na máquina, navegue até a pasta que deseja criar:
 Se já tiver o projeto na máquina, navegue até a pasta do projeto:
 - `git pull origin master`
 
-### CRIAR UMA NOVA FEATURE
+### CRIAR UM NOVO PROJETO DO ZERO
+
+Navegar até a pasta do projeto e executar o comando:
+- `cucumber --init` (este comando irá criar a árvore de pastas que uma automação cucumber deve conter)
+
+### CRIAR UMA NOVA FEATURE DO ZERO
 
 Passo a passo para fazer uma nova feature NO projeto
-1. Criar um novo arquivo .feature dentro da pasta featuresaver
+1. Criar um novo arquivo .feature dentro da pasta features
 2. Escrever o bdd em linguagem gherkin (sem esquecer o #language: pt no inicio da pagina)
 3. Salvar projeto
 4. No cmd digitar: `cucumber features/nomedafeature.feature`
 5. Copiar o código gerado e colar no novoarquivo_steps.rb na step_definitions
 
-### CRIAR UM NOVO PROJETO
-
-Navegar até a pasta do projeto e executar o comando:
-- `cucumber --init` (este comando irá criar a árvore de pastas que uma automação cucumber deve conter)
+### EXECUTAR O PROJETO
+Na pasta do seu projeto executar:
+- `cucumber`
+- `cucumber features/nomedafeature.feature` (para executar apenas uma feature)
 
 ### INCLUIR PROJETO NOVO NO GIT
 
@@ -75,7 +80,4 @@ Adicionar alterações:
 3. `git commit -m"Adicionar o comentario aqui sobre o que realmente foi alterado"`
 4. `git push origin nomedabranch`
 
-### EXECUTAR O PROJETO
-Na pasta do seu projeto executar:
-- `cucumber`
-- `cucumber features/nomedafeature.feature` (para executar apenas uma feature)
+### DESAFIO - FRONT END
