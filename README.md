@@ -53,7 +53,7 @@ Navegar até a pasta do projeto e executar o comando:
 ### CRIAR UMA NOVA FEATURE DO ZERO
 
 Passo a passo para fazer uma nova feature NO projeto
-1. Criar um novo arquivo .feature dentro da pasta features
+1. Criar um novo arquivo .feature dentro da pasta features/specifications
 2. Escrever o bdd em linguagem gherkin (sem esquecer o #language: pt no inicio da pagina)
 3. Salvar projeto
 4. No cmd digitar: `cucumber features/nomedafeature.feature`
@@ -81,3 +81,11 @@ Adicionar alterações:
 4. `git push origin nomedabranch`
 
 ### DESAFIO - FRONT END
+1. Baixar o projeto no github;
+2. Fazer a instalação dos pré-requisitos;
+3. Criar a feature (do zero) para se cadastrar no site (Botão REGISTER)
+4. Criar os steps
+5. Criar arquivo register_steps.rb
+6. Copiar e colar os steps para o register_steps.rb
+7. Adicionar a página register em support/pages
+8. Automatizar na register_steps.rb usando a nova página
