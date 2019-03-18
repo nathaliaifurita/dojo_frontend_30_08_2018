@@ -9,5 +9,4 @@ class LoginPage < SitePrism::Page
         campo_senha.set senha
         botao_entrar.click
     end
-
 end
