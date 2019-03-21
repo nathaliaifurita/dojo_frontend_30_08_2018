@@ -1,0 +1,17 @@
+class RegisterPage < SitePrism::Page
+    set_url '/mercuryregister.php'
+    element :firstname, 'body > div > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(5) > td > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > input'
+    element :lastname, 'body > div > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(5) > td > form > table > tbody > tr:nth-child(3) > td:nth-child(2) > input'
+    element :phone, 'body > div > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr:nth-child(5) > td > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input'
+    element :email, '#userName'
+    element :address1, 'input[name="address1"]'
+    element :address2, 'input[name="address2"]'
+    element :city, 'input[name="city"]'
+    element :state, 'input[name="state"]'
+    element :postalCode, 'input[name="postalCode"]'
+    element :country, 'select[name="country"]'
+    element :username, '#email' 
+    element :password, 'input[name="password"]'
+    element :confirmed, 'input[name="confirmPassword"]'
+    element :submit, 'input[name="register"]'
+end
