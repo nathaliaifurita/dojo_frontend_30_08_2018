@@ -89,3 +89,4 @@ Adicionar alterações:
 6. Copiar e colar os steps para o reservation_steps.rb
 7. Adicionar a página reservation em support/pages
 8. Automatizar na reservation_steps.rb usando a nova página
+9. Obs: A resolução está no projeto já ;)
