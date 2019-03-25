@@ -83,9 +83,9 @@ Adicionar alterações:
 ### DESAFIO - FRONT END
 1. Baixar o projeto no github;
 2. Fazer a instalação dos pré-requisitos;
-3. Criar a feature (do zero) para se cadastrar no site (Botão REGISTER)
+3. Criar a feature (do zero) para reservar a passagem no site
 4. Criar os steps
-5. Criar arquivo register_steps.rb
-6. Copiar e colar os steps para o register_steps.rb
-7. Adicionar a página register em support/pages
-8. Automatizar na register_steps.rb usando a nova página
+5. Criar arquivo reservation_steps.rb
+6. Copiar e colar os steps para o reservation_steps.rb
+7. Adicionar a página reservation em support/pages
+8. Automatizar na reservation_steps.rb usando a nova página
